@@ -19,7 +19,7 @@ Once data is collected from Liputan6, similar scraping functions are applied to 
 - Tokenization and Stemming: Tokenization splits sentences into words, while stemming reduces words to their root forms for a more effective vocabulary.
 
 ## Text Representation
-- Word2Vec (Skip-gram Model):
+- Word2Vec (Skip-gram Model)
   
   A Word2Vec model is trained on the preprocessed text data using a skip-gram approach with the following parameters:
   - vector_size=50: Each word is represented by a 50-dimensional vector.
@@ -29,7 +29,7 @@ Once data is collected from Liputan6, similar scraping functions are applied to 
 
 - FastText
   
-A FastText model is also trained on the data, with similar parameters to Word2Vec, except FastText captures subword information.
+  A FastText model is also trained on the data, with similar parameters to Word2Vec, except FastText captures subword information.
 
 ## Model Training
 - SVM (Support Vector Machine)
