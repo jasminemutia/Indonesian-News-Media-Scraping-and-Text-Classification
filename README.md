@@ -4,7 +4,7 @@ The goal is to create a labeled dataset and build a classification model that ac
 Below are the key steps taken in this project, including data scraping, preprocessing, and model evaluation.
 
 ## Project Overview
-### Data Collection and Scraping
+## Data Collection and Scraping
 Using Python libraries such as BeautifulSoup and Requests, news data is scraped from sources like Liputan6, Kompas, and Detik. 
 Each article's title, URL, media source, and category label are gathered to create a structured dataset. This data is then stored in a DataFrame and exported as a CSV for further processing.
 
